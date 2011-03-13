@@ -13,13 +13,13 @@ use YAML::Any qw/Dump/;
 use Log::Log4perl;
 
 use 5.010000;
-our $VERSION = '0.1';
+our $VERSION = '0.02';
 
 =pod
 
 =head1 NAME
 
-FSpot
+FSpot::DbTool - An interface to the F-Spot database
 
 =head1 SYNOPSIS
 
@@ -34,10 +34,7 @@ Parameters:
                      but you are sure you want to continue anyway, set this parameter.
 
 =head1 DESCRIPTION
-
-Interface to FSpot database
-
-=head1 PROPERTIES
+Interface to FSpot database =head1 PROPERTIES
 
 =cut
 
@@ -519,5 +516,52 @@ __END__
 =head1 AUTHOR
 
 Robin Clarke C<perl@robinclarke.net>
+
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc FSpot::DbTool
+
+
+You can also look for information at:
+
+=over 4
+
+=item * Repository on Github
+
+L<https://github.com/robin13/FSpot--DbTool>
+
+=item * RT: CPAN's request tracker
+
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Git-Demo>
+
+=item * AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/Git-Demo>
+
+=item * CPAN Ratings
+
+L<http://cpanratings.perl.org/d/Git-Demo>
+
+=item * Search CPAN
+
+L<http://search.cpan.org/dist/Git-Demo/>
+
+=back
+
+=head1 ACKNOWLEDGEMENTS
+
+L<http://f-spot.org/>
+
+=head1 LICENSE AND COPYRIGHT
+
+Copyright 2010 Robin Clarke.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
 
 =cut
